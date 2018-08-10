@@ -59,7 +59,7 @@
             // 
             this.lbResultado.Location = new System.Drawing.Point(12, 9);
             this.lbResultado.Name = "lbResultado";
-            this.lbResultado.Size = new System.Drawing.Size(500, 55);
+            this.lbResultado.Size = new System.Drawing.Size(500, 91);
             this.lbResultado.TabIndex = 2;
             this.lbResultado.Text = "Resultado:";
             this.lbResultado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -67,9 +67,9 @@
             // lboxResultado
             // 
             this.lboxResultado.FormattingEnabled = true;
-            this.lboxResultado.Location = new System.Drawing.Point(15, 78);
+            this.lboxResultado.Location = new System.Drawing.Point(15, 117);
             this.lboxResultado.Name = "lboxResultado";
-            this.lboxResultado.Size = new System.Drawing.Size(393, 355);
+            this.lboxResultado.Size = new System.Drawing.Size(393, 316);
             this.lboxResultado.TabIndex = 3;
             // 
             // Projeto1

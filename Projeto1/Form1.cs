@@ -34,18 +34,24 @@ namespace Projeto1
             socio.nome = "Jose";
             socio.sobre_nome = "da Silva";
             socio.idade = 28;
+            socio.sexo = "Masculino";
             
             Socio socio2 = new Socio() {
                 nome = "Antonio",
                 sobre_nome = "Rodrigues",
-                idade = 29
+                idade = 29,
+                sexo = "Masculino"
             };
 
-            Socio socio3 = new Socio("Joao", "Remião", 30);
+            Socio socio3 = new Socio("Joao", "Remião", 30, true);
+            Socio socio4 = new Socio("Paula", "Oliveira", 50, false);
+            Socio socio5 = new Socio("Roberto", "Silva", 18);
 
-            lbResultado.Text = "Usuario: " + socio.nome + " " + socio.sobre_nome + " tem " + socio.idade + " anos de idade.";
-            lbResultado.Text = lbResultado.Text + "\nUsuario2: " + socio2.nome + " " + socio2.sobre_nome + " tem " + socio2.idade + " anos de idade.";
-            lbResultado.Text = lbResultado.Text + "\nUsuario3: " + socio3.nome + " " + socio3.sobre_nome + " tem " + socio3.idade + " anos de idade.";
+            lbResultado.Text = "Usuario: " + socio.nome + " " + socio.sobre_nome + " tem " + socio.idade + " anos de idade, do sexo: " + socio.sexo;
+            lbResultado.Text = lbResultado.Text + "\nUsuario2: " + socio2.nome + " " + socio2.sobre_nome + " tem " + socio2.idade + " anos de idade, do sexo: " + socio2.sexo;
+            lbResultado.Text = lbResultado.Text + "\nUsuario3: " + socio3.nome + " " + socio3.sobre_nome + " tem " + socio3.idade + " anos de idade, do sexo: " + socio3.sexo;
+            lbResultado.Text = lbResultado.Text + "\nUsuario4: " + socio4.nome + " " + socio4.sobre_nome + " tem " + socio4.idade + " anos de idade, do sexo: " + socio4.sexo;
+            lbResultado.Text = lbResultado.Text + "\nUsuario5: " + socio5.nome + " " + socio5.sobre_nome + " tem " + socio5.idade + " anos de idade, do sexo: " + socio5.sexo;
 
 
             /*int variavel1 = 10, variavel2 = 20, idade = 30;

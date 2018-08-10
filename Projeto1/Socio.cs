@@ -10,17 +10,26 @@ namespace Projeto1
     {
         public string nome;
         public string sobre_nome;
+        public string sexo;
         public int idade;
 
         public Socio()
         {
 
         }
-        public Socio(string n, string sn, int i)
+        public Socio(string n, string sn, int i, bool masculino = true)
         {
             nome = n;
             sobre_nome = sn;
             idade = i;
+            if(masculino == true)
+            {
+                sexo = "Masculino";
+            }
+            else
+            {
+                sexo = "Feminino";
+            }
         }
 
     }
